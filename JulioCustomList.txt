@@ -1,84 +1,70 @@
-!Custom rules for personal use
-0.0.0.0 choice.microsoft.com
-0.0.0.0 choice.microsoft.com.nsatc.net
-0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
-0.0.0.0 df.telemetry.microsoft.com
-0.0.0.0 oca.telemetry.microsoft.com
-0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
-0.0.0.0 redir.metaservices.microsoft.com
-0.0.0.0 reports.wes.df.telemetry.microsoft.com
-0.0.0.0 services.wes.df.telemetry.microsoft.com
-0.0.0.0 settings-sandbox.data.microsoft.com
-0.0.0.0 sls.update.microsoft.com.akadns.net
-0.0.0.0 sqm.df.telemetry.microsoft.com
-0.0.0.0 sqm.telemetry.microsoft.com
-0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
-0.0.0.0 statsfe2.ws.microsoft.com
-0.0.0.0 telecommand.telemetry.microsoft.com
-0.0.0.0 telecommand.telemetry.microsoft.com.nsat­c.net
-0.0.0.0 telemetry.appex.bing.net
-0.0.0.0 telemetry.microsoft.com
-0.0.0.0 telemetry.urs.microsoft.com
-0.0.0.0 vortex-sandbox.data.microsoft.com
-0.0.0.0 vortex-win.data.microsoft.com
-0.0.0.0 vortex.data.microsoft.com
-0.0.0.0 watson.ppe.telemetry.microsoft.com
-0.0.0.0 watson.telemetry.microsoft.com
-0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
-0.0.0.0 apps.corel.com
-0.0.0.0 mc.corel.com
-0.0.0.0 origin-mc.corel.com
-0.0.0.0 iws.corel.com
-||mediaservices.cdn-apple.com^$important
-@@||cdnbc-wup.hsbc.com.mx^$important
-@@||cdnbc-logs.hsbc.com.mx^$important
-@@||s.youtube.com^$important
-||au.ff.avast.com^$important
-||southindia1-mediap.svc.ms^$important
-||genuine.adobe.com^$important
-||ipm.corel.com^$important
-||streamback.ff.avast.com^$important
-||dy2.jghttp.xyz^$important
-||www.happyshoping.ml^$important
-||bybio.co^$important
-||sex-and-flirt.com^$important
-||departurealter.com^$important
-||pickyourbonus.life^$important
-||ddecbd.datinglocator24.com^$important
-||nowcontentright.com^$important
-||beastbuying.com^$important
-||us.convers.link^$important
-||www.googleadservices.com^$important
-@@||mobile.pipe.aria.microsoft.com^$important
-@@||activity.windows.com^$important
-||location.services.mozilla.com^$important
-@@||teams.events.data.microsoft.com^$important
-||firebase-settings.crashlytics.com^$important
-||vip0x008.map2.ssl.hwcdn.net^$important
-@@||licenses.ashampoo.com^$important
-@@||androidtvchannels-pa.googleapis.com^$important
-||rr5---sn-uvu5a2a5t-hxmll.googlevideo.com^$important
+||choice.microsoft.com
+||choice.microsoft.com.nsatc.net
+||corpext.msitadfs.glbdns2.microsoft.com
+||df.telemetry.microsoft.com
+||oca.telemetry.microsoft.com
+||oca.telemetry.microsoft.com.nsatc.net
+||redir.metaservices.microsoft.com
+||reports.wes.df.telemetry.microsoft.com
+||services.wes.df.telemetry.microsoft.com
+||settings-sandbox.data.microsoft.com
+||sls.update.microsoft.com.akadns.net
+||sqm.df.telemetry.microsoft.com
+||sqm.telemetry.microsoft.com
+||sqm.telemetry.microsoft.com.nsatc.net
+||statsfe2.ws.microsoft.com
+||telecommand.telemetry.microsoft.com
+||telecommand.telemetry.microsoft.com.nsat­c.net
+||telemetry.appex.bing.net
+||telemetry.microsoft.com
+||telemetry.urs.microsoft.com
+||vortex-sandbox.data.microsoft.com
+||vortex-win.data.microsoft.com
+||vortex.data.microsoft.com
+||watson.ppe.telemetry.microsoft.com
+||watson.telemetry.microsoft.com
+||watson.telemetry.microsoft.com.nsatc.net
+||apps.corel.com
+||mc.corel.com
+||origin-mc.corel.com
+||iws.corel.com
+||mediaservices.cdn-apple.com
+||au.ff.avast.com
+||southindia1-mediap.svc.ms
+||genuine.adobe.com
+||ipm.corel.com
+||streamback.ff.avast.com
+||dy2.jghttp.xyz
+||www.happyshoping.ml
+||bybio.co
+||sex-and-flirt.com
+||departurealter.com
+||pickyourbonus.life
+||ddecbd.datinglocator24.com
+||nowcontentright.com
+||beastbuying.com
+||us.convers.link
+||www.googleadservices.com
+||location.services.mozilla.com
+||firebase-settings.crashlytics.com
+||vip0x008.map2.ssl.hwcdn.net
+||rr1---sn-uvu5a2a5t-hxmls.gvt1.com
+||rr5---sn-uvu5a2a5t-hxmll.googlevideo.com
 ||depor-com.cdn.ampproject.org^$client='192.168.0.53'
-||rr1---sn-uvu5a2a5t-hxmls.gvt1.com^$important
-@@||depor-com.cdn.ampproject.org^$important
-||12123059.fls.doubleclick.net^$important
-@@||zwyr157wwiu6eior.com^$important
-@@||zwyr157wwiu6eior.com^$client='192.168.0.122'
-@@||boi9osyg1uwtyafn.com^$important
-||rr1---sn-uvu5a2a5t-hxmy.googlevideo.com^$important
-||rr2---sn-uvu5a2a5t-hxms.googlevideo.com^$important
-||rr4---sn-uvu5a2a5t-hxmll.googlevideo.com^$important
-||rr1---sn-uvu5a2a5t-hxmls.googlevideo.com^$important
-||rr5---sn-a5msen7s.googlevideo.com^$important
-||rr3---sn-uvu5a2a5t-hxmls.googlevideo.com^$important
-||rr1---sn-uvu5a2a5t-hxme6.googlevideo.com^$important
-||rr1---sn-uvu5a2a5t-hxme.googlevideo.com^$important
-||rr1---sn-uvu5a2a5t-hxml.googlevideo.com^$important
-||rr2---sn-uvu5a2a5t-hxml.googlevideo.com^$important
-||rr5---sn-9gv7lnes.googlevideo.com^$important
-||rr2---sn-uvu5a2a5t-hxmls.googlevideo.com^$important
-||rr1---sn-uvu5a2a5t-hxmz.googlevideo.com^$important
-||rr2---sn-a5mekn6r.googlevideo.com^$important
-||rr4---sn-uvu5a2a5t-hxms.googlevideo.com^$important
-||rr2---sn-uvu5a2a5t-hxmr.googlevideo.com^$important
-@@||bbvabancomer.d3.sc.omtrdc.net^$important
+||rr1---sn-uvu5a2a5t-hxmy.googlevideo.com
+||rr2---sn-uvu5a2a5t-hxms.googlevideo.com
+||rr4---sn-uvu5a2a5t-hxmll.googlevideo.com
+||rr1---sn-uvu5a2a5t-hxmls.googlevideo.com
+||rr5---sn-a5msen7s.googlevideo.com
+||rr3---sn-uvu5a2a5t-hxmls.googlevideo.com
+||rr1---sn-uvu5a2a5t-hxme6.googlevideo.com
+||rr1---sn-uvu5a2a5t-hxme.googlevideo.com
+||rr1---sn-uvu5a2a5t-hxml.googlevideo.com
+||rr2---sn-uvu5a2a5t-hxml.googlevideo.com
+||rr5---sn-9gv7lnes.googlevideo.com
+||rr2---sn-uvu5a2a5t-hxmls.googlevideo.com
+||rr1---sn-uvu5a2a5t-hxmz.googlevideo.com
+||rr2---sn-a5mekn6r.googlevideo.com
+||rr4---sn-uvu5a2a5t-hxms.googlevideo.com
+||rr2---sn-uvu5a2a5t-hxmr.googlevideo.com
+||12123059.fls.doubleclick.net
