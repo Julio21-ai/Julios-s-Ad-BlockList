@@ -60,8 +60,6 @@
 ||testip.internet-census.org^  
 ||*.asertdnsresearch.com^  
 ||s.w.org^  
-||*.dd.icdn.ru^  
-||*.dd.icdn.ru^  
 ||deff.nelreports.net^  
 ||megaflirt.lifeant^  
 ||yourcams.life^  
