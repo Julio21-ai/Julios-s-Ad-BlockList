@@ -1,7 +1,11 @@
+||bedrapiona.com^
+||newstrends.space^
+||yashoppe.com^
+||naijaknowhow.net^
+||allleftlive.com^
 ||*.omnitagjs.com^
 ||*.telemetry.microsoft.com.nsatc.net
 ||12123059.fls.doubleclick.net^
-||ads.pubmatic.com^
 ||ads.pubmatic.com^
 ||apps.corel.com
 ||au.ff.avast.com^
