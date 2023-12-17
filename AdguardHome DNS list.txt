@@ -1,26 +1,28 @@
-##LAN
+# LAN
 [/lan/]192.168.0.1:53
 [//]192.168.0.1:53
-##Time ntp
-[/time.google.com/]8.8.8.8
-[/time.cloudflare.com/]1.1.1.1
-[/time.apple.com/]1.1.1.1
-[/time.nist.gov/]1.1.1.1
-[/cronos.cenam.mx/]1.1.1.1
-[/pool.ntp.org/]1.1.1.1
-[/ntp.msn.com/]1.1.1.1
+
+# Configuración para servidores de tiempo (NTP)
+[/time.google.com/]9.9.9.9
+[/time.cloudflare.com/]9.9.9.9
+[/time.apple.com/]9.9.9.9
+[/time.nist.gov/]9.9.9.9
+[/cronos.cenam.mx/]9.9.9.9
+[/pool.ntp.org/]9.9.9.9
+[/ntp.msn.com/]9.9.9.9
 [/time.android.com/]8.8.8.8
-[/time.windows.com/]1.1.1.1
-[/ntp.airable.io/]1.1.1.1
-[/time.nist.gov/]1.1.1.1
-[/time-nw.nist.gov/]1.1.1.1
-##nordAcount
+[/time.windows.com/]9.9.9.9
+[/ntp.airable.io/]9.9.9.9
+[/time.nist.gov/]9.9.9.9
+[/time-nw.nist.gov/]9.9.9.9
+[/asia.pool.ntp.org/]9.9.9.9
+[/2.android.pool.ntp.org/]9.9.9.9
+[/ntp.msn.com/]9.9.9.9
+[/2.debian.pool.ntp.org/]9.9.9.9
+
+# Configuración para NordAccount
 [/nordaccount.com/]103.86.96.100
 [/nordaccount.com/]103.86.99.100
-[/nordaccount.com/]103.86.96.103
-[/nordaccount.com/]103.86.99.103
-[/nordaccount.com/]udp://103.86.96.103
-[/nordaccount.com/]udp://103.86.99.103
 [/nordaccount.com/]tcp://103.86.99.100
 [/nordaccount.com/]tcp://103.86.96.100
 [/nordaccount.com/]tls://unfiltered.adguard-dns.com
@@ -29,13 +31,10 @@
 [/nordaccount.com/]https://unfiltered.adguard-dns.com/dns-query
 [/nordaccount.com/]https://unfiltered.adguard-dns.com/dns-query
 [/nordaccount.com/]https://dns10.quad9.net/dns-query
-##nordloggin
+
+# Configuración para NordLogging
 [/zwyr157wwiu6eior.com/]103.86.96.100
 [/zwyr157wwiu6eior.com/]103.86.99.100
-[/zwyr157wwiu6eior.com/]103.86.96.103
-[/zwyr157wwiu6eior.com/]103.86.99.103
-[/zwyr157wwiu6eior.com/]udp://103.86.96.103
-[/zwyr157wwiu6eior.com/]udp://103.86.99.103
 [/zwyr157wwiu6eior.com/]tcp://103.86.99.100
 [/zwyr157wwiu6eior.com/]tcp://103.86.96.100
 [/zwyr157wwiu6eior.com/]tls://unfiltered.adguard-dns.com
@@ -44,13 +43,8 @@
 [/zwyr157wwiu6eior.com/]https://unfiltered.adguard-dns.com/dns-query
 [/zwyr157wwiu6eior.com/]https://unfiltered.adguard-dns.com/dns-query
 [/zwyr157wwiu6eior.com/]https://dns10.quad9.net/dns-query
-#
 [/boi9osyg1uwtyafn.com/]103.86.96.100
 [/boi9osyg1uwtyafn.com/]103.86.99.100
-[/boi9osyg1uwtyafn.com/]103.86.96.103
-[/boi9osyg1uwtyafn.com/]103.86.99.103
-[/boi9osyg1uwtyafn.com/]udp://103.86.96.103
-[/boi9osyg1uwtyafn.com/]udp://103.86.99.103
 [/boi9osyg1uwtyafn.com/]tcp://103.86.99.100
 [/boi9osyg1uwtyafn.com/]tcp://103.86.96.100
 [/boi9osyg1uwtyafn.com/]tls://unfiltered.adguard-dns.com
@@ -59,13 +53,10 @@
 [/boi9osyg1uwtyafn.com/]https://unfiltered.adguard-dns.com/dns-query
 [/boi9osyg1uwtyafn.com/]https://unfiltered.adguard-dns.com/dns-query
 [/boi9osyg1uwtyafn.com/]https://dns10.quad9.net/dns-query
-##nordvpn
+
+# Configuración para NordVPN
 [/nordvpn.com/]103.86.96.100
 [/nordvpn.com/]103.86.99.100
-[/nordvpn.com/]103.86.96.103
-[/nordvpn.com/]103.86.99.103
-[/nordvpn.com/]udp://103.86.96.103
-[/nordvpn.com/]udp://103.86.99.103
 [/nordvpn.com/]tcp://103.86.99.100
 [/nordvpn.com/]tcp://103.86.96.100
 [/nordvpn.com/]tls://unfiltered.adguard-dns.com
@@ -74,79 +65,81 @@
 [/nordvpn.com/]https://unfiltered.adguard-dns.com/dns-query
 [/nordvpn.com/]https://unfiltered.adguard-dns.com/dns-query
 [/nordvpn.com/]https://dns10.quad9.net/dns-query
-############################Secure DNS#####################################
-##AdGuard protected DNS
+
+######## Configuración para DNS Seguros ########
+
+# AdGuard DNS protegido
 https://dns.adguard.com/dns-query
 tls://dns.adguard.com
 quic://dns.adguard-dns.com
-##AdGuard unprotected DNS
+
+# AdGuard DNS no protegido
 https://unfiltered.adguard-dns.com/dns-query
-tls://unfiltered.adguard-dns.com	
-quic://unfiltered.adguard-dns.com	
-##Quad9 DNS
+tls://unfiltered.adguard-dns.com
+quic://unfiltered.adguard-dns.com
+
+# Quad9 DNS
 https://dns.quad9.net/dns-query
 tls://dns.quad9.net
-##Quad9 unsecure DNS
+tls://9.9.9.9
+tls://9.9.9.11
+https://dns11.quad9.net/dns-query
+tls://dns11.quad9.net
+
+# Quad9 DNS no seguro
 https://dns10.quad9.net/dns-query
 tls://dns10.quad9.net
-##Privacy-First DNS
-https://doh.tiar.app/dns-query
-quic://doh.tiar.app
+https://9.9.9.10/dns-query
+tls://9.9.9.10
+
+# DNS Privacy-First
 tls://dot.tiar.app
-https://jp.tiarap.org/dns-query	
-https://jp.tiar.app/dns-query	
-tls://jp.tiar.app	
-##Libre DNS
+https://jp.tiarap.org/dns-query
+https://jp.tiar.app/dns-query
+tls://jp.tiar.app
+
+# Libre DNS
 https://doh.libredns.gr/ads
-https://doh.libredns.gr/dns-query
-tls://dot.libredns.gr
-##DNS Privacy
+
+# DNS Privacy
 tls://getdnsapi.net
-############################ Plain DNS #####################################
-##nordvpn dns
-103.86.96.100
-103.86.99.100
-103.86.96.103
-103.86.99.103
-udp://103.86.96.103
-tcp://103.86.99.103
-udp://103.86.96.100
-tcp://103.86.99.100
-##AdGuard protected DNS
-94.140.14.14
-94.140.15.15
-tcp://94.140.14.14
-tcp://94.140.15.15
-udp://94.140.14.14
-udp://94.140.15.15
-##AdGuard unprotected DNS
-94.140.14.140
-94.140.14.14
-tcp://94.140.14.140
-tcp://94.140.14.14
-udp://94.140.14.140
-udp
-##Neustar Recursive DNS Threat Protection
-156.154.70.2
-156.154.71.2
-##Neustar Recursive DNS Threat Protection
-156.154.70.1
-156.154.71.1	
-##Quad9 DNS
-9.9.9.9
-149.112.112.112
-##Quad9 unsecure DNS
-9.9.9.10
-149.112.112.10
-##Comodo Secure DNS
-8.26.56.10
-8.20.247.10
-##Verisign Public DNS
-64.6.64.6
-64.6.65.6
-##Privacy-First DNS
-174.138.21.128
-188.166.206.224
-172.104.93.80
-##Libre DNS
-88.198.92.222
+tls://unicast.censurfridns.dk
+
+# Cloudflare DNS
+tls://1dot1dot1dot1.cloudflare-dns.com
+https://dns.cloudflare.com/dns-query
+
+# Cloudflare DNS con bloqueo de malware
+https://security.cloudflare-dns.com/dns-query
+tls://security.cloudflare-dns.com
+
+# SWITCH DNS
+https://dns.switch.ch/dns-query
+tls://dns.switch.ch
+tls://130.59.31.248
+
+# Cisco OpenDNS
+https://doh.opendns.com/dns-query
+
+# Restena DNS
+https://kaitain.restena.lu/dns-query
+
+# dnsforge.de
+tls://dnsforge.de:853
+https://dnsforge.de/dns-query
+
+# Digitale Gesellschaft DNS
+tls://dns.digitale-gesellschaft.ch
+https://dns.digitale-gesellschaft.ch/dns-query
+
+# NextDNS
+https://dns.nextdns.io
+tls://dns.nextdns.io
+
+# DNS.SB
+https://doh.dns.sb/dns-query
+https://doh.sb/dns-query
+https://45.11.45.11/dns-query
+https://185.222.222.222/dns-query
+tls://185.222.222.222
+tls://45.11.45.11
