@@ -1,0 +1,64 @@
+! Nord VPN
+!
+@@||nordvpn.com^$important
+@@||boi9osyg1uwtyafn.com^$important
+@@||zwyr157wwiu6eior.com^$important
+@@||auth.nordaccount.com^$important
+@@||nordvpn.com^$important
+!
+! Banking
+!
+@@||bbvabancomer.d3.sc.omtrdc.net^$important
+@@||cdnbc-logs.hsbc.com.mx^$important
+@@||cdnbc-wup.hsbc.com.mx^$important
+@@||cdntm.hsbc.com.mx^$important
+@@||rbwm-api.us.hsbc.com^$important
+@@||sodexo-mexico.equilibrio.agency^$important
+@@||status.mobilex.vpc.hsbc.co.uk^$important
+@@||www.security.online-banking.hsbc.com.mx^$important
+@@||zn1sxm57tosj5159h-hsbcdigital.siteintercept.qualtrics.com^$important
+!
+! Netflix
+!
+@@||ichnaea.netflix.com^$important
+@@||androidtvchannels-pa.googleapis.com^$important
+!
+! MS Teams related
+!
+@@||adminlogin.liveperson.net^$important
+@@||config.edge.skype.com^
+@@||fls-na.amazon.com^$important
+@@||ic3.events.data.microsoft.com^$
+@@||ic3.events.data.microsoft.com^$important
+@@||mobile.pipe.aria.microsoft.com^$important
+@@||presence.teams.microsoft.com^$
+@@||presence.teams.microsoft.com^$important
+@@||pub-ent-usea2-03-t.trouter.teams.microsoft.com^$important
+@@||statics.teams.cdn.office.net^$important
+@@||target.microsoft.com^$important
+@@||teams.events.data.microsoft.com^$important
+@@||unagi-na.amazon.com^$important
+@@||va.push.liveperson.net^$important
+@@||va.v.liveperson.net^$important
+!
+!turbo bit
+!
+@@||turb.pw^$important
+!
+! GPS
+!
+@@||xtrapath2.izatcloud.net^$
+@@||xtrapath1.izatcloud.net^$
+@@||xtrapath3.izatcloud.net^$
+!
+@@||ocsp.digicert.com^$important
+@@||crl3.digicert.com^$important
+!
+!GoogleApis
+!
+@@||ajax.googleapis.com^$important
+@@||www.gstatic.com^$important
+!
+!Software
+!
+@@||licenses.ashampoo.com^$important

@@ -1,8 +1,7 @@
-# LAN
-[/lan/]192.168.0.1:53
-[//]192.168.0.1:53
-
-# Configuración para servidores de tiempo (NTP)
+#==============================================================================#
+# Plain DNS Server List
+#==============================================================================#
+# NTP
 [/time.google.com/]9.9.9.9
 [/time.cloudflare.com/]9.9.9.9
 [/time.apple.com/]9.9.9.9
@@ -20,7 +19,7 @@
 [/ntp.msn.com/]9.9.9.9
 [/2.debian.pool.ntp.org/]9.9.9.9
 
-# Configuración para NordAccount
+# NordAccount
 [/nordaccount.com/]103.86.96.100
 [/nordaccount.com/]103.86.99.100
 [/nordaccount.com/]tcp://103.86.99.100
@@ -32,7 +31,7 @@
 [/nordaccount.com/]https://unfiltered.adguard-dns.com/dns-query
 [/nordaccount.com/]https://dns10.quad9.net/dns-query
 
-# Configuración para NordLogging
+# NordLogging
 [/zwyr157wwiu6eior.com/]103.86.96.100
 [/zwyr157wwiu6eior.com/]103.86.99.100
 [/zwyr157wwiu6eior.com/]tcp://103.86.99.100
@@ -54,7 +53,7 @@
 [/boi9osyg1uwtyafn.com/]https://unfiltered.adguard-dns.com/dns-query
 [/boi9osyg1uwtyafn.com/]https://dns10.quad9.net/dns-query
 
-# Configuración para NordVPN
+# NordVPN
 [/nordvpn.com/]103.86.96.100
 [/nordvpn.com/]103.86.99.100
 [/nordvpn.com/]tcp://103.86.99.100
@@ -66,14 +65,15 @@
 [/nordvpn.com/]https://unfiltered.adguard-dns.com/dns-query
 [/nordvpn.com/]https://dns10.quad9.net/dns-query
 
-######## Configuración para DNS Seguros ########
-
-# AdGuard DNS protegido
+#==============================================================================#
+# Secure DNS Server List
+#==============================================================================#
+# AdGuard DNS
 https://dns.adguard.com/dns-query
 tls://dns.adguard.com
 quic://dns.adguard-dns.com
 
-# AdGuard DNS no protegido
+# AdGuard DNS unprotected
 https://unfiltered.adguard-dns.com/dns-query
 tls://unfiltered.adguard-dns.com
 quic://unfiltered.adguard-dns.com
@@ -86,7 +86,7 @@ tls://9.9.9.11
 https://dns11.quad9.net/dns-query
 tls://dns11.quad9.net
 
-# Quad9 DNS no seguro
+# Quad9 DNS unsecured
 https://dns10.quad9.net/dns-query
 tls://dns10.quad9.net
 https://9.9.9.10/dns-query
@@ -109,7 +109,7 @@ tls://unicast.censurfridns.dk
 tls://1dot1dot1dot1.cloudflare-dns.com
 https://dns.cloudflare.com/dns-query
 
-# Cloudflare DNS con bloqueo de malware
+# Cloudflare DNS with malware blocking
 https://security.cloudflare-dns.com/dns-query
 tls://security.cloudflare-dns.com
 
@@ -126,7 +126,6 @@ https://kaitain.restena.lu/dns-query
 
 # dnsforge.de
 tls://dnsforge.de:853
-https://dnsforge.de/dns-query
 
 # Digitale Gesellschaft DNS
 tls://dns.digitale-gesellschaft.ch
@@ -143,3 +142,20 @@ https://45.11.45.11/dns-query
 https://185.222.222.222/dns-query
 tls://185.222.222.222
 tls://45.11.45.11
+
+# 0ms DNS
+https://2ca4h4crra.cloudflare-gateway.com/dns-query
+
+# OpenBLD.net DNS
+https://ada.openbld.net/dns-query
+tls://ada.openbld.net
+
+# Wikimedia DNS
+https://wikimedia-dns.org/dns-query
+
+# Digitale Gesellschaft DNS
+https://dns.digitale-gesellschaft.ch/dns-query
+tls://dns.digitale-gesellschaft.ch
+
+# Restena DNS
+https://kaitain.restena.lu/dns-query
