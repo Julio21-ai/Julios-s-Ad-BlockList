@@ -52,3 +52,9 @@
 ||video.tv.adobe.com^
 ||ims-prod06.adobelogin.com^
 ||ffc-static-cdn.oobesaas.adobe.com^
+||firefly.adobe.io^$important
+||lcs-ulecs.adobe.io^$important
+||notify.adobe.io^$important
+||swupmf.adobe.com^$important
+||odin.adobe.com^$important
+||video.tv.adobe.com^$important
