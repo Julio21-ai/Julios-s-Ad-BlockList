@@ -1,3 +1,4 @@
+||*.admatic.*^$important
 ||*.adobestats.io^
 ||*.advertising.*.*^$important
 ||*.advertising.com^$important
@@ -17,8 +18,10 @@
 ||*analytics*.yahoo.com^$important
 ||*newstrends.space.*^
 ||*taboola*.*^$important
+||2mdn.net^$important
 ||360yield.com^$important
 ||a.a47b.com^
+||abs.twimg.com^$important
 ||acds.prod.vidible.tv^
 ||ad*.googlesyndication.com^$important
 ||ad-delivery.net^$important
@@ -172,6 +175,7 @@
 ||richaudience.com^$important
 ||ridinra.com^
 ||rouperdo.net^
+||s.update.rubiconproject.com^$important
 ||s.w.org^
 ||securepubads.g.doubleclick.net^$important
 ||servebom.com^$important
