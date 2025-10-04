@@ -8,6 +8,8 @@
 !
 ! Banking
 !
+@@||bbva.mx^$important
+@@||hsbc.com.mx^$important
 @@||bbvabancomer.d3.sc.omtrdc.net^$important
 @@||cdnbc-logs.hsbc.com.mx^$important
 @@||cdnbc-wup.hsbc.com.mx^$important
@@ -22,6 +24,7 @@
 !
 @@||ichnaea.netflix.com^$important
 @@||androidtvchannels-pa.googleapis.com^$important
+@@||netflix.com^
 !
 ! MS Teams related
 !
@@ -37,9 +40,10 @@
 @@||statics.teams.cdn.office.net^$important
 @@||target.microsoft.com^$important
 @@||teams.events.data.microsoft.com^$important
-@@||unagi-na.amazon.com^$important
 @@||va.push.liveperson.net^$important
 @@||va.v.liveperson.net^$important
+@@||mobile.events.data.microsoft.com^$important
+@@||vlscppe.microsoft.com^$important
 !
 !turbo bit
 !
@@ -54,11 +58,11 @@
 @@||ocsp.digicert.com^$important
 @@||crl3.digicert.com^$important
 !
-!GoogleApis
-!
-@@||ajax.googleapis.com^$important
-@@||www.gstatic.com^$important
-!
 !Software
 !
 @@||licenses.ashampoo.com^$important
+@@||settings-win.data.microsoft.com^$important
+!
+!Social Media
+!
+@@||click.discord.com^$important
