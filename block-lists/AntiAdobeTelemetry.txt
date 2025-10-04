@@ -19,6 +19,7 @@
 ||dev1.ipm.corel.public.corel.net^
 ||download-center.dxo.com^
 ||dpm.demdex.net^
+||elsevier.data.adobedc.cn^$important
 ||ffc-static-cdn.oobesaas.adobe.com^
 ||firefly.adobe.io^$important
 ||fp2e7a.wpc.2be4.phicdn.net^
