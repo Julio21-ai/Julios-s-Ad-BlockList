@@ -74,7 +74,6 @@
 ||btloader.com^$important
 ||bybio.co^
 ||cdn.imagendigital.com^$important
-||cdn.jsdelivr.net^$important
 ||choice.microsoft.com.nsatc.net^
 ||choice.microsoft.com^
 ||clickonometrics.pl^$important
